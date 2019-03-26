@@ -1,0 +1,42 @@
+header, nav, main, footer {
+     display: block;
+}
+ body {
+     background-color: #ffffcc;
+     color: #330000;
+     font-family: Tahoma, Verdana, sans-serif;
+}
+ h1 {
+     background-color: #ccaa66;
+     color: #000000;
+     text-align: center;
+     margin: 0;
+     padding-bottom: 20px;
+     padding-top: 20px;
+}
+ footer {
+     background-color: #ccaa66;
+     color: #000000;
+     font-size: small;
+     font-style: italic;
+     text-align: center;
+}
+ nav {
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-left: 15px;
+     padding-right: 15px;
+}
+ nav a {
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-left: 15px;
+     padding-right: 15px;
+}
+ #wrapper {
+     margin-left: auto;
+     margin-right: auto;
+     width: 80%;
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
