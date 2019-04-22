@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html lang="en">
+   <head>
+      <title> JavaJam Coffee House </title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <div id="wrapper">
+      <header>
+         <h1>JavaJam Coffee House</h1>
+      </header>
+      <nav>
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="Music.html">Music</a></li>
+            <li><a href="http://student202.webdev.seminolestate.edu/404.html">Jobs</a></li>
+            <li><a href="gear.html">Gear</a></li>
+         </ul>
+      </nav>
+      <main>
+         <div id="herocouch"></div>
+         <h2> 
+            JavaJam Gear 
+         </h2>
+         <p>
+            JavaJam gear not only looks good, it's good to your wallet too.<br>
+            Get a 10% discount when you wear a JavaJam shirt or bring in your JavaJam mug!
+         </p>
+         <div class="item">
+            <img src="images/javashirt.jpg" class="clearright">
+            <p> 
+               JavaJam shirts are comforable to war to school and around town. 100 cotton. XL only $14.95
+            </p>
+            <form method="post"
+               action="http://webdevfoundations.net/cart.html">
+               <input type="hidden" name="desc1" id="desc1" value="JavaJam Shirt" />
+               <input type="hidden" name="cost1" id="cost1" value="14.95" />
+               <button type="submit">Add to Cart</button>
+            </form>
+         </div>
+         <div class="item" >
+            <img src="images/javamug.jpg" class="clearright" />
+            <p> 
+               JavaJam mugs carry a full load of caffine (12oz.) to jump-start your morning. $9.95
+            </p>
+            <form method="post"
+               action="http://webdevfoundations.net/cart.html">
+               <input type="hidden" name="desc2" id="desc2" value="JavaJam Shirt" />
+               <input type="hidden" name="cost2" id="cost2" value="14.95" />
+               <button type="submit">Add to Cart</button>
+            </form>
+		</main>
+      <footer>
+      <p>
+      Copyright &copy; 2018 JavaJam Coffee House 
+      <br>      
+      <a href="mailto:dylan@kabler.com">dylan@kabler.com</a>				
+      </p>
+      </footer>
+      </div>
+   </body>
+</html>
