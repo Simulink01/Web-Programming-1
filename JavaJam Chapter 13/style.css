@@ -1,0 +1,326 @@
+header, nav, main, footer {
+    display: block;
+}
+* {
+    box-sizing: border-box;
+}
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.item {
+	background-color: #FAF9F7;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-right: 3em;
+	margin-left: 3em;
+	width: 80%;
+	padding: 1em;
+	overflow: auto;
+}
+.item img{
+	float: right;
+	width: 25%;
+	margin-top: 3.5px;
+}
+audio {
+    display: block;
+    margin-top: 1em;
+}
+body {
+    background-image: url(images/background.gif);
+    color: #221811;
+    font-family: Verdana;
+}
+header {
+    background-color: #d2b48c;
+    height: 150px;
+    background-image: url(images/javajamlogo.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+h1 {
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+h4 {
+    background-color: #d2b48c;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 0px;
+    clear: left;
+}
+form {
+    padding: 2em;
+}
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    float: left;
+    width: 200px;
+}
+nav a:link {
+    text-decoration: none;
+    color: #fef6c2;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #d2b48c;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #cc9933;
+}
+nav ul {
+    list-style-type: none;
+    padding-left: 2em;
+}
+main {
+    margin-left: 200px;
+    padding-bottom: 1em;
+    display: block;
+    background-color: #fef6c2;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+main h2, h3, h4, p, ul, dl {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+label {
+    display: block;
+    float: left;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+input {
+    display: block;
+    margin-bottom: 1em;
+}
+textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+dt {
+    font-weight: bold;
+}
+table {
+    width: 90%;
+    margin: auto;
+    border-spacing: 0px;
+    background-color: #ffffcc;
+    padding-bottom: 1em;
+}
+td, th {
+    padding: 10px;
+}
+tr:nth-of-type(odd)
+	{background-color:#d2b48c;
+	
+	}
+footer {
+    background-color: #d2b48c;
+    font-size: .6em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 1px solid #221811;
+}
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+.floatleft {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+#marginSubmitButton {
+    margin-left: 128px;
+}
+#marginAndPaddingSetter {
+    margin-top: 0px;
+    padding-top: 10px;
+}
+#wrapper {
+    min-width: 900px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #231814;
+    box-shadow: 2px 2px 2px;
+}
+#heroroad {
+    background-image: url(images/heroroad.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+#heromugs {
+    background-image: url(images/heromugs.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+#heroguitar {
+    background-image: url(images/heroguitar.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+#herocouch {
+    background-image: url(images/herocouch.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+#mobile {
+    display: none;
+}
+#desktop {
+    display: inline;
+}
+#mysubmit {
+    margin-left: 9.5em;
+}
+@media only screen and (max-width: 1024px) {
+    * {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    background-image: none;
+}
+header {
+    border-bottom: #fef6c2 solid 5px;
+}
+h1 {
+    margin-top: 0px;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 2.5em;
+}
+nav {
+    float: none;
+    width: auto;
+    padding-top: 0px;
+    margin: 10px;
+    font-size: 1.3em;
+}
+nav li {
+    display: inline-block;
+}
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+nav a {
+    padding: 1em;
+    width: 8em;
+    font-weight: bold;
+    border-style: none;
+    display: inline-block;
+}
+main {
+    padding: 0px;
+    margin: 0px;
+    font-size: 90%;
+}
+#wrapper {
+    width: auto;
+    min-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: none;
+}
+#heroroad {
+    background-image: url(images/heroroad.jpg);
+    background-size: 100%;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+#heromugs {
+    background-image: url(images/heromugs.jpg);
+    background-size: 100%;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+#heroguitar {
+    background-image: url(images/heroguitar.jpg);
+    background-size: 100%;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-image: url(images/javajamlogo.jpg);
+    height: 128px;
+}
+header h1 {
+    padding-top: 1em;
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+    padding: 0px;
+}
+nav {
+    margin: 0px;
+}
+nav a {
+    display: inline-block;
+    padding: .2em;
+    width: auto;
+    border-bottom: #fef6c2 solid 1px;
+}
+nav li {
+    display: block;
+}
+main {
+    padding-top: 1px;
+}
+h2 {
+    padding-top: .5em;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: .5em;
+    margin-right: .5em;
+}
+audio {
+	display: block;
+	margin-top: 1em;
+}
+.details {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.floatleft {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+#heroroad {
+    background-image: none;
+    height: auto;
+}
+#heromugs {
+    background-image: none;
+    height: auto;
+}
+#heroguitar {
+    background-image: none;
+    height: auto;
+}
+#mobile {
+    display: inline;
+}
+#desktop {
+    display: none;
+}
+}
